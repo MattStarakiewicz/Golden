@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    .services-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 102px;
+        .icon-container {
+            width: 300px;
+            height: auto;
+            text-align: center;
+            margin: 0 15px;
+            i {          
+                font-size: 31px;
+                max-width: 76px;
+                min-width: 76px;
+                color: $brand-color;
+                border: 3px solid $brand-color;
+                padding: 17px;
+                border-radius: 50%;
+            };
+        };
+    };
+};
+
+@media (max-width: 767px) {
+    .services-container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 50px;
+        .icon-container {
+            width: 300px;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            i {          
+                font-size: 31px;
+                max-width: 76px;
+                min-width: 76px;
+                color: $brand-color;
+                border: 3px solid $brand-color;
+                padding: 17px;
+                border-radius: 50%;
+            };
+        };
+    };
+};
